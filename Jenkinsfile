@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('git_checkout') {
             steps {
-               git branch: 'main', url: 'https://github.com/vrthamizharasan/terraform_pipeline.git'
+               git branch: 'main', url: 'https://github.com/vrthamizharasan/eks_terraform.git'
             }
         }
         stage('terraform_version'){

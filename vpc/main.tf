@@ -244,4 +244,4 @@ resource "aws_eks_node_group" "worker_node" {
    ]
 }
 
-//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
+
